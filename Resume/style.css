@@ -1,0 +1,72 @@
+.main{
+    /* display: flex; */
+    margin-left: 100px;
+   width: 800px;
+   height: 1400px;
+border: 3px;
+   padding: 30px;
+   
+
+
+}
+#pic{
+    height: 170px;
+    width: 120px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    
+
+}
+.icon{
+    width: 5px;
+    height: 5px;
+}
+
+#name {
+    color: red;
+    font-weight: 300;
+    font-size:xx-large;
+  
+}
+#as{
+    font-size: large;
+    font-weight: bold;
+}
+
+.contact{
+    font-size: smaller;
+}
+
+.section{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.firstCol {
+    font-size: larger;
+    font-weight:bolder;
+   }
+
+   .title{
+        font-weight: bold;
+        font-size: large;
+   }
+
+   .company{
+    font-weight: 400;
+    font-size: 20px;
+   }
+
+   .duration{
+        font-size: small;
+   }
+
+
+
+
+
+
