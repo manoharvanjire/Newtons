@@ -1,13 +1,21 @@
 .main{
     /* display: flex; */
-    margin-left: 100px;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-top: 20px;
    width: 800px;
-   height: 1400px;
-border: 3px;
+   height: 1000px;
+    border: 3px;
    padding: 30px;
+   background-color: rgb(116, 223, 223);
    
 
 
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 #pic{
     height: 170px;
@@ -21,8 +29,9 @@ header{
 
 }
 .icon{
-    width: 5px;
-    height: 5px;
+    width: 15px;
+    height: 15px;
+    margin-left: 50px;
 }
 
 #name {
@@ -63,6 +72,20 @@ header{
 
    .duration{
         font-size: small;
+   }
+   .skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+   }
+   .skill{
+    background-color: gray;
+    border: 1px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 3px;
+    color: brown;
+    margin: 4px;
    }
 
 
